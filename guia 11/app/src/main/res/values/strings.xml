@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">RetrofitCrudApp</string>
+    <string name="alumnos">Alumnos</string>
+    <string name="profesores">Profesores</string>
+    <string name="ver_profesores">Ver profesores</string>
+    <string name="ver_alumnos">Volver a alumnos</string>
+    <string name="agregar_alumno">Agregar nuevo alumno</string>
+    <string name="agregar_profesor">Agregar nuevo profesor</string>
+    <string name="editar_alumno">Modificar alumno</string>
+    <string name="editar_profesor">Modificar profesor</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="edad">Edad</string>
+    <string name="guardar">Guardar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="recargar">Actualizar lista</string>
+    <string name="sin_registros">Todavía no hay registros. Pulsa + para agregar uno.</string>
+    <string name="ayuda_lista">Toca un registro para modificarlo o eliminarlo.</string>
+    <string name="edad_valor">Edad: %1$d años</string>
+    <string name="edad_sin_dato">Edad sin dato válido</string>
+    <string name="error_http">No se pudo completar la operación (HTTP %1$d). Intenta de nuevo.</string>
+    <string name="error_conexion">No se pudo completar la solicitud. Revisa tu conexión y actualiza la lista antes de reintentar.</string>
+    <string name="campo_obligatorio">Este campo es obligatorio</string>
+    <string name="edad_invalida">Ingresa una edad entre 1 y 120 años</string>
+    <string name="registro_invalido">El registro seleccionado no es válido</string>
+    <string name="registro_creado">Registro creado correctamente</string>
+    <string name="registro_actualizado">Registro actualizado correctamente</string>
+    <string name="registro_eliminado">Registro eliminado correctamente</string>
+    <string name="confirmar_eliminar">¿Deseas eliminar a %1$s %2$s?</string>
+    <string-array name="opciones_persona">
+        <item>Modificar</item>
+        <item>Eliminar</item>
+    </string-array>
+</resources>
