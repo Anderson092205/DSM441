@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <!-- Picasso solo se usa con ImageView. Su NotificationAction no se utiliza en esta app. -->
+    <issue id="NotificationPermission">
+        <ignore regexp=".*com\.squareup\.picasso\.RemoteViewsAction\.NotificationAction.*" />
+    </issue>
+</lint>

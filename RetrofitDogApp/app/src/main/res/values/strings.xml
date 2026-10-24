@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">RetrofitDogApp</string>
+    <string name="github_title">Repositorios de GitHub</string>
+    <string name="github_access">Buscar repositorios de GitHub</string>
+    <string name="github_help">Busca un usuario para consultar sus repositorios públicos.</string>
+    <string name="github_username">Usuario de GitHub (ej. octocat)</string>
+    <string name="github_search">Buscar repositorios</string>
+    <string name="github_back">Volver a perros</string>
+    <string name="github_initial">Ingresa un usuario para comenzar.</string>
+    <string name="github_invalid_username">Ingresa un usuario válido de GitHub, sin espacios ni @.</string>
+    <string name="github_empty">%1$s no tiene repositorios públicos.</string>
+    <string name="github_results">Repositorios de %1$s: %2$d</string>
+    <string name="github_not_found">No se encontró al usuario %1$s.</string>
+    <string name="github_rate_limit">GitHub alcanzó el límite de consultas. Intenta más tarde.</string>
+    <string name="github_forbidden">GitHub rechazó la consulta. Intenta más tarde.</string>
+    <string name="github_http_error">No se pudieron cargar los repositorios (HTTP %1$d). Vuelve a buscar.</string>
+    <string name="github_connection_error">No se pudo conectar con GitHub. Revisa tu conexión y vuelve a intentar.</string>
+    <string name="github_no_description">Sin descripción</string>
+    <string name="github_no_language">Lenguaje no especificado</string>
+    <string name="github_repository_details">%1$s · Estrellas: %2$d</string>
+    <string name="github_open_repository">Abrir %1$s en el navegador</string>
+    <string name="github_load_more">Cargar más repositorios</string>
+    <string name="github_no_browser">No hay un navegador disponible.</string>
 </resources>

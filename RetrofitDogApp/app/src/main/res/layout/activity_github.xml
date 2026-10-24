@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/main"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:padding="16dp" android:orientation="vertical">
+        <Button android:id="@+id/backToDogs" style="?attr/borderlessButtonStyle"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/github_back" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/github_title" android:textSize="26sp" android:textStyle="bold" android:accessibilityHeading="true" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" android:text="@string/github_help" />
+        <EditText android:id="@+id/githubUsername" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:minHeight="56dp" android:hint="@string/github_username" android:inputType="textVisiblePassword"
+            android:singleLine="true" android:imeOptions="actionSearch" android:importantForAutofill="no" />
+        <Button android:id="@+id/searchRepositories" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/github_search" />
+    </LinearLayout>
+    <ProgressBar android:id="@+id/githubProgress" android:layout_width="40dp" android:layout_height="40dp"
+        android:layout_gravity="center_horizontal" android:visibility="gone" />
+    <TextView android:id="@+id/githubStatus" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingHorizontal="16dp" android:paddingVertical="8dp" android:text="@string/github_initial"
+        android:accessibilityLiveRegion="polite" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/repositories" android:layout_width="match_parent"
+        android:layout_height="0dp" android:layout_weight="1" android:clipToPadding="false" android:padding="8dp" />
+    <Button android:id="@+id/loadMoreRepositories" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp" android:visibility="gone" android:text="@string/github_load_more" />
+</LinearLayout>

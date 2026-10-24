@@ -9,7 +9,7 @@ class DogAdapter(private val images: List<String>?) : RecyclerView.Adapter<DogVi
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DogViewHolder {
         val view: View = LayoutInflater.from(parent.context)
             .inflate(R.layout.item_dog, parent, false)
-            return DogViewHolder(view)
+        return DogViewHolder(view)
     }
     // Se llama para mostrar los datos en una posición específica
     override fun onBindViewHolder(holder: DogViewHolder, position: Int) {

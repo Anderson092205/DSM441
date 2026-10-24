@@ -1,5 +1,6 @@
 package com.example.retrofitdogapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
@@ -40,6 +41,9 @@ class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
             insets
         }
 
+        binding.openGithub.setOnClickListener {
+            startActivity(Intent(this, GitHubActivity::class.java))
+        }
         initRecyclerView()
         binding.searchDogs.setOnQueryTextListener(this)
     }
