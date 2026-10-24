@@ -1,0 +1,1 @@
+# Reglas específicas de SQLiteApp.
